@@ -34,18 +34,19 @@ Buat topologi jaringan yang sesuai yaitu dengan mengatur IP Address pada setiap 
 Kemudian buat plotting subnettingnya,
 ![Frame 2](https://user-images.githubusercontent.com/81427127/204076497-c1447a0e-622d-4f5a-a2a8-5b3445005841.png)
 
-![IP](https://user-images.githubusercontent.com/81427127/204076523-f1e05ad9-1f8e-4196-9e29-1a7bf2fd1618.png)
+
 
 ### Tree
 Setelah dilakukan pembagian subnetting, lakukan pembagian IP Address menggunakan tree pada setiap interface yang ada.
-![Tabloid - 2](https://user-images.githubusercontent.com/81427127/204076578-737821ac-b2eb-45f2-b217-1a34fafbf4c2.png)
+![image](https://user-images.githubusercontent.com/32472207/206890120-9d364c89-5522-4555-b336-6bd6c071868c.png)
+
 
 Gunakan prefix IP ```192.169.X.X```, dimulai dari 192.169.0.0/20 kemudian bagi menjadi dua bagian, lakukan cara yang sama sampai 192.169.x.x/30.
 
 ### VLSM-IP
-![VLSM_IP](https://user-images.githubusercontent.com/81427127/204076679-f7d72c05-106a-42d4-8cb0-8fe97ea69a38.png)
+![image](https://user-images.githubusercontent.com/32472207/206890156-28b55979-a38b-4186-b35c-0f8868a33c34.png)
 
-![CPT](https://user-images.githubusercontent.com/81427127/204076756-a5d24b48-5952-4747-ad14-bbeb5c506977.png)
+<img width="793" alt="image" src="https://user-images.githubusercontent.com/32472207/206890729-96b2663e-a1dc-4827-9a63-f4ea87303547.png">
 
 ### Testing
 Testing dari Client ke Client
